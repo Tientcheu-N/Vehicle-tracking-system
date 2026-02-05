@@ -1,0 +1,43 @@
+.map-placeholder {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+}
+
+.map-container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.map-container h3 {
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+}
+
+.coordinates-preview {
+  margin-top: 20px;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  border-radius: 6px;
+  flex-grow: 1;
+}
+
+.coordinates-preview h4 {
+  margin-bottom: 10px;
+}
+
+.coordinates-preview pre {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  border-radius: 4px;
+  overflow: auto;
+  font-size: 12px;
+  max-height: 200px;
+}
